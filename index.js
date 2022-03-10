@@ -12,19 +12,14 @@ app.get('/about',(req,res)=>{
     res.send("<h1>This is about page</h1>")
 })
 
-
 app.get('/home',(req,res)=>{
     console.log("Home Page logged in the logs")
     res.send("<h1>This is Home page</h1>")
 })
 
-
 app.get('/career',(req,res)=>{
     console.log("Career Page logged in the logs")
     res.send("<h1>This is Career page</h1>")
 })
-
-
-
 
 app.listen(3000)
